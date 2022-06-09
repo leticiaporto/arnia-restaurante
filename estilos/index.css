@@ -5,10 +5,19 @@ body {
     background-color: rgb(237, 237, 237);
 }
 
+.conteudo-centralizado {
+    text-align: center;
+}
+
+.conteudo {
+    padding: 20px
+}
+
 .titulo {
     color: #a10303;
     font-size: 32px;
     font-weight: bold;
+    padding: 20px;
 }
 
 .subtitulo {
@@ -17,12 +26,26 @@ body {
 
 .item-menu {
     font-size: 24px;
+    padding: 20px 0px 20px 0px;
+}
+
+.item-menu a, .item-menu-inicio a {
+    color: rgb(161, 3, 3);
+}
+
+.item-menu-inicio {
+    font-size: 24px;
     padding: 20px;
 }
 
-.item-menu a {
-    color: rgb(161, 3, 3);
-    padding: 5px;
+.item-menu-proprietario {
+    font-size: 24px;
+    padding: 20px;
+}
+
+.item-menu-proprietario a {
+    color: #000000;
+    text-decoration: none;
 }
 
 .conteudo {
@@ -32,4 +55,23 @@ body {
 
 .voltar {
     color: gray;
+}
+
+.menu .item-menu, .menu .item-menu-proprietario, .menu .item-menu-inicio {
+    text-align: center;
+    display: inline-block;
+}
+
+.item-subtitulo {
+    display: inline-block;
+}
+
+.cadastrar:link, .cadastrar:visited {
+    background-color: rgb(161, 3, 3);
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 30px;
 }

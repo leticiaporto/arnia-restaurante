@@ -70,3 +70,12 @@ body {
 .voltar a {
     color: gray;
 }
+
+.conteudo-cardapio {
+    text-align: center;
+}
+
+.conteudo-cardapio .coluna {
+    display: inline-block;    
+    width: 360px;
+}
